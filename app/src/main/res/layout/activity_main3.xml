@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="73dp"
+      android:layout_height="44dp"
+      android:layout_marginStart="21dp"
+      android:layout_marginTop="99dp"
+      android:layout_marginEnd="362dp"
+      android:layout_marginBottom="613dp"
+      android:text="資訊"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.32" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="180dp"
+      android:layout_marginBottom="525dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="未設定"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+  <TextView
+      android:id="@+id/textView7"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginTop="7dp"
+      android:layout_marginEnd="334dp"
+      android:text="腫瘤部位"
+      app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+  <TextView
+      android:id="@+id/textView9"
+      android:layout_width="68dp"
+      android:layout_height="28dp"
+      android:layout_marginStart="21dp"
+      android:layout_marginBottom="494dp"
+      android:text="腫瘤分期"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="180dp"
+      android:layout_marginBottom="449dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="未設定"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/textView9"
+      app:layout_constraintVertical_bias="0.6" />
+
+  <TextView
+      android:id="@+id/textView10"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="332dp"
+      android:layout_marginBottom="425dp"
+      android:text="手術日期"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="179dp"
+      android:layout_marginBottom="379dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="未設定"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+  <TextView
+      android:id="@+id/textView11"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="305dp"
+      android:layout_marginBottom="359dp"
+      android:text="有無人工血管"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="180dp"
+      android:layout_marginBottom="314dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="未設定"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="305dp"
+      android:layout_marginBottom="294dp"
+      android:text="禁做治療部位"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="180dp"
+      android:layout_marginBottom="249dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="未設定"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+  <TextView
+      android:id="@+id/textView13"
+      android:layout_width="114dp"
+      android:layout_height="20dp"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="276dp"
+      android:layout_marginBottom="227dp"
+      android:text="HBsAg(B型肝炎)"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName7"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="180dp"
+      android:layout_marginBottom="182dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="未設定"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+  <TextView
+      android:id="@+id/textView14"
+      android:layout_width="122dp"
+      android:layout_height="20dp"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="268dp"
+      android:layout_marginBottom="160dp"
+      android:text="Anti-HCV(C型肝炎)"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="180dp"
+      android:layout_marginBottom="115dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="未設定"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+  <TextView
+      android:id="@+id/textView15"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="334dp"
+      android:layout_marginBottom="94dp"
+      android:text="過敏藥物"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName9"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="21dp"
+      android:layout_marginEnd="180dp"
+      android:layout_marginBottom="49dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="未設定"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
